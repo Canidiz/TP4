@@ -72,48 +72,7 @@ public class classeArrays  {
         }        
         return a/b;
     }
-        
-    
-        
-           
-        
-        
-        
-               
-        
-        
-        
-        
-        
-        
-        /*public void ExcecaoDivisaoResultadoZero(Double resultadoAnterior) {
-
-        try {
-         
-            if (resultadoAnterior == 0) {
-                
-            }
-
-        } catch (Exception e) {
-            System.out.println("err:\n" + e);
-        }
-
-    }
-
-    /*
-    
-    3) Agora crie uma nova exceção que é disparada quando a divisão do 'calcula(int a, int b)' resulta em 0. 
-    Chame essa exceção de ExcecaoDivisaoResultadoZero e faça com o que método 'calcula' lance (throw) essa exceção 
-    quando o resultado da divisão por 'a' por 'b' for igual a zero. Lembre-se que como você criou uma exceção nova, é interessante 
-    você sobrescrever a mensagem da sua nova exceção para uma mensagem mais apropriada.
-    
-    4) Para finalizar, crie um método CalculaDivisaoArrays que chama o método calcula para cada posição correspondente dos arrays arrayA e arrayB. 
-    Ou seja, ele divide arrayA[0] por arrayB[0], arrayA[1] por arrayB[1] até a última posição do array.
-    Repare que nesse método, você vai ter que tratar a exceção que pode ser lançada no item 3. Logo, use aqui o bloco try-catch-finally. 
-    No caso do finally, você deve usar para imprimir os valores (a e b) que foram usados na divisão
-   
-     */
-    //Getters and setters 
+     
     public double[] getArray1() {
         return array1;
     }
